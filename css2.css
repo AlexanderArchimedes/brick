@@ -1,0 +1,172 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1;
+  background-color: rgb(34, 33, 33);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+   -webkit-text-fill-color: rgb(218, 205, 134);
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(238, 209, 45)
+;
+  background-position: center top;
+  margin: 0;
+  
+}
+
+a {
+  color: #b3db22;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 3px solid rgb(255, 255, 255)
+;
+  margin: 2px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgb(231, 208, 0)
+;
+   -webkit-text-fill-color: rgb(223, 216, 181)
+; 
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: rgb(223, 201, 11)
+;
+  padding: 30px;
+}
+
+.brand-name {
+  border: 3px solid rgb(224, 223, 214)
+;
+  margin: 1px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  color: rgb(224, 223, 214)
+;
+   -webkit-text-fill-color: rgb(224, 223, 214)
+; 
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: rgb(224, 223, 214)
+;
+  padding: 15px;
+}
+
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 55px;
+  height: 375px;
+  width: 250px
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid rgb(184, 167, 17);
+  height: 375px;
+width: 250px
+}
+
+figcaption {
+  font-size: 25px;
+  color: rgb(224, 223, 214)
+;
+   -webkit-text-fill-color:  rgb(224, 223, 214); 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(224, 223, 214)
+;
+}
+
+
+nav {
+  border: 3px solid rgb(224, 223, 214)
+;
+  background-color: rgb(34, 33, 33);
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right;
+  color: rgb(204, 187, 0)
+;
+   -webkit-text-fill-color: rgb(255, 0, 0)
+; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(255, 1, 242)
+;
+}
+
+.contact-btn a {
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #e4e710;
+  
+
+}
+
+.contact-btn a:active {
+  top: 2px;
+
+}
+
+nav a {
+  color: #0aa517;
+  text-decoration: none;
+  color: rgb(224, 223, 214)
+;
+   -webkit-text-fill-color: rgb(224, 223, 214)
+; 
+   -webkit-text-stroke-width: 0px;
+   -webkit-text-stroke-color: rgb(224, 223, 214)
+;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+
+
+.carousel-inner > .item > img {
+width: 2000px;
+height: 750px;
+}
+
+.headimage {
+  height: 40px;
+  width: 40px;
+}
+
+img {
+  width: 195px;
+  height: 75px;
+  padding-left: 10px;
+}
